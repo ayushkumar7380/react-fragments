@@ -11,7 +11,7 @@ let sabzilelo = ["Sabzi","Green Vegitable","Roti","Salad","Milk","Ghee"]
 
   return (
     <>
-      <h1>Healty Food</h1>
+      <h1 className="header">Healty Food</h1>
       <Errormessage kanha={sabzilelo}></Errormessage>
       <FoodItems kchbhi={sabzilelo}></FoodItems>
     </>

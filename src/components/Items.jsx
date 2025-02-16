@@ -1,6 +1,9 @@
+import styles from "./Items.module.css"
+
 const Items = ({ayush}) => {
    return (
-     <li className="list-group-item">{ayush}</li>
+     <li className={`${styles.Ak_item}`}>
+      <span className="ak_span">{ayush}</span></li>
 
    )
 }
